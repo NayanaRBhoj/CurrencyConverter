@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1 USD {fa-dollar} = "
+            android:textColor="#8BC34A"
+            android:textSize="22sp" />
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/icontxt_1_inr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#1A237E"
+            android:textSize="25sp" />
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/icontxt_spin1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="{ion-android-sync spin}"
+            android:textColor="#FF9800"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="USD {fa-dollar}"
+            android:textColor="#8BC34A"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/edtText"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/ll_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_bg"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:text="GO"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/icontxt_spin"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="1dp"
+            android:text="{ion-android-sync spin}"
+            android:textColor="#FF9800"
+            android:textSize="40sp" />
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/icontxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INR: {fa-inr}"
+            android:textColor="#1A237E"
+            android:textSize="22sp" />
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/icontxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EURO: {fa-euro}"
+            android:textColor="#00ACC1"
+            android:textSize="22sp" />
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/icontxt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AED: {fa-euro}"
+            android:textColor="#F44336"
+            android:textSize="22sp" />
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text=" {mdi-emoticon-happy} {mdi-emoticon-happy} {mdi-emoticon-happy}"
+            android:textColor="#FF8F00"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/repeat_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#E91E63"></LinearLayout>
+
+
+</LinearLayout>
